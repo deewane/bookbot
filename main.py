@@ -10,7 +10,8 @@ def main():
 def get_num_words():
     text = get_book_text("books/frankenstein.txt")
     words = text.split()
-    print(len(words))
+    wordcount = len(words)
+    print(f"Found {wordcount} total words")
     
 
 
