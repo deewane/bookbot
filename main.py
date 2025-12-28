@@ -24,7 +24,7 @@ def samewords():
     if num_word == 0:
         print("word not found")
     else:
-        print(f"the word {word_to_find} was found a number of {num_word}")
+        print(f"the word {word_to_find} was found a number of {num_word} times")
 
 
 samewords()
